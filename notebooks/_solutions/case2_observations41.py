@@ -1,0 +1,1 @@
+survey_data.resample('YE', on='eventDate').size().plot()

@@ -1,0 +1,1 @@
+df['Fare'].plot.box()  # or .plot(kind='box')

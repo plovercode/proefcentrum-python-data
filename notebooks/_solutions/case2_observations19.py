@@ -1,0 +1,1 @@
+observations.groupby("name").size().nlargest(8)

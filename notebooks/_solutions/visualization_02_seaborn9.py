@@ -1,0 +1,9 @@
+sns.catplot(data=casualties_motorway_trucks,
+            x="week_day",
+            y="n_victims",
+            estimator=np.sum,
+            errorbar=None,
+            kind="bar",
+            color="#900C3F",
+            height=3, 
+            aspect=4)

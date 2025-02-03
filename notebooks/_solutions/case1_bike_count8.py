@@ -1,0 +1,1 @@
+df2022 = df.drop(columns=['Datum', 'Uur5Minuten', 'Ordening', 'Code'])

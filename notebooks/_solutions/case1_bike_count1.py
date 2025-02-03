@@ -1,0 +1,1 @@
+df = pd.read_csv("data/fietstelpaal-coupure-links-2022-gent.zip", sep=';')

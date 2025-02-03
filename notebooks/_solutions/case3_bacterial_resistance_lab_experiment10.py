@@ -1,0 +1,10 @@
+sns.catplot(data=falcor, kind="point",
+            x='Bacterial_genotype',
+            y='log10 Mc',
+            row="Phage",
+            linestyle="none",
+            errorbar=None,
+            row_order=["Lambda", "T4", "T7"],
+            order=['WT', 'MUT', 'D87G', 'S83L', 'D516G', 'S512F', 'K43N', 'K88R', 'RSF1010', 'RP4'],
+            aspect=3, height=3,
+            color="black")

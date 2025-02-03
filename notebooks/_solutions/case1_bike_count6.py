@@ -1,0 +1,1 @@
+df["timestamp"] = pd.to_datetime(df["Ordening"], format="%Y-%m-%dT%H:%M:%S%z", utc=True)

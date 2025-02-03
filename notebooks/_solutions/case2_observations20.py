@@ -1,0 +1,1 @@
+observations['name'].value_counts().iloc[:8]

@@ -1,0 +1,1 @@
+df.resample('h').sum().mean()

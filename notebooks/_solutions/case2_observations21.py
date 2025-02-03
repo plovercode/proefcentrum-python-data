@@ -1,0 +1,1 @@
+n_species_per_plot = observations.groupby(["verbatimLocality"])["name"].nunique()
