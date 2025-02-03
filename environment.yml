@@ -1,4 +1,4 @@
-name: course-python
+name: proefc-python
 channels:
 - conda-forge
 dependencies:

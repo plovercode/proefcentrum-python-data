@@ -82,7 +82,7 @@ The packages used in the course are enlisted in
 an [`environment.yml` file](https://raw.githubusercontent.com/plovercode/proefcentrum-python-data/main/environment.yml). The file looks as follows:
 
 ```
-name: DS-python
+name: proefc-python
 channels:
 - conda-forge
 dependencies:
@@ -124,7 +124,7 @@ Respond with *Yes* by typing `y` when asked. Output will be printed and if no er
 When finished, keep the terminal window (or "Miniforge Prompt") open (or reopen it). Execute the following commands to check your installation:
 
 ```
-conda activate DS-python
+conda activate proefc-python
 ipython
 ```
 
@@ -157,7 +157,7 @@ course material (e.g. in the example it is `C:/Users/yourusername/Documents/proe
 Activate the newly created conda environment:
 
 ```
-conda activate DS-python
+conda activate proefc-python
 ```
 
 Then, run the `check_environment.py` script:
@@ -183,7 +183,7 @@ Each of the course modules is set up as a [Jupyter notebook](http://jupyter.org/
 * Ensure that the correct environment is activated.
 
   ```
-  conda activate DS-python
+  conda activate proefc-python
   ```
 
 * Start a jupyter notebook server by typing
